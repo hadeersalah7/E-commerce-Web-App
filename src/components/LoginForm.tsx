@@ -2,7 +2,7 @@ import { BsForward } from "react-icons/bs";
 import loginLogo from "../assets/standalone circular .png"
 const LoginForm = () => {
     return (
-        <div className="w-full max-w-[490px] bg-white min-[800px]:px-6 relative max-[700px]:px-10 shadow-2xl rounded-2xl">
+        <div className="w-full max-w-[490px] bg-white min-[800px]:px-6 relative max-[800px]:px-10 shadow-2xl rounded-2xl">
             {/* logo section */}
             <div className="w-[70px] mb-15 absolute loginLogo top-15 bg-transparent min-[280px]:left-[25%] min-[338px]:left-[40%]  -translate-y-1/2 flex justify-center items-center">
                 <img src={loginLogo} />
