@@ -1,4 +1,5 @@
-import './App.css'
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+
 import { Login } from './pages'
 
 
@@ -7,7 +8,13 @@ function App() {
 
   return (
     <>
-      <Login />
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />}>
+          </Route>
+        </Routes>
+      </Router>
+
     </>
   )
 }
