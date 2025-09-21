@@ -60,8 +60,8 @@ const LoginForm = () => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <button className="cursor-pointer flex items-center justify-evenly bg-[#F47458] w-[120px] h-10 my-12 text-white rounded-xl">
-                        Sign in{" "}
+                    <button type="submit" className="cursor-pointer flex items-center justify-evenly bg-[#F47458] w-[120px] h-10 my-12 text-white rounded-xl">
+                        Sign in
                         <span>
                             <BsForward />
                         </span>
@@ -69,12 +69,15 @@ const LoginForm = () => {
                 </div>
             </form>
 
-            <p className="text-gray-300 pb-15">
-                I don't have an account?{" "}
-                <span className="text-[#F47458] pl-1 tracking-wide cursor-pointer">
-                    Sign up!
-                </span>
-            </p>
+            <div className="flex justify-center items-center">
+                <p className="text-gray-300 pb-15">
+                    I don't have an account?{" "}
+                    <span className="text-[#F47458] pl-1 tracking-wide cursor-pointer">
+                        Sign up!
+                    </span>
+                </p>
+            </div>
+
         </div>
     );
 };

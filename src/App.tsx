@@ -1,6 +1,6 @@
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 
-import { Error, Login } from './pages'
+import { Dashboard, Error, Login } from './pages'
 
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
             <Route path="*" element={<Error />} />
-          
-        </Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes> 
       </Router>
 
     </>
