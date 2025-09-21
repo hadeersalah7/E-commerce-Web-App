@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/login" element={<Login />} />
-            <Route path="*" element={<Error />} />
           <Route path="/dashboard" element={<Dashboard />} />
-        </Routes> 
+          <Route path="*" element={<Error />} />
+        </Routes>
       </Router>
 
     </>
